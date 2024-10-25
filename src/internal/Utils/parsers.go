@@ -13,5 +13,3 @@ func fetchSitemap(url string) ([]byte, error) {
 	defer resp.Body.Close()
 	return io.ReadAll(resp.Body)
 }
-
-// func parseXmlFrom
